@@ -1,0 +1,13 @@
+{
+    "name": "kpn13/generics-php",
+    "autoload": {
+        "psr-4": {
+            "Kpn13\\GenericsPhp\\": "src/",
+            "Kpn13\\GenericsPhp\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0",
+        "phpstan/phpstan": "^1.10"
+    }
+}
